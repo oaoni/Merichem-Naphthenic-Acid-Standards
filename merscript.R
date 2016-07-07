@@ -1,5 +1,5 @@
 options(warn=0)
-setwd("C:/Users/wsaoillab/Desktop/Ola Data Analysis/R/Oil/Merichem") #Set working directory
+#setwd("C:/Users/wsaoillab/Desktop/Ola Data Analysis/R/Oil/Merichem") #Set working directory
 
 #Function for converting NA values to 0 in sample sets 
 na.zero <- function (x)
