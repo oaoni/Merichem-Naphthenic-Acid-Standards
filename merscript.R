@@ -1,5 +1,5 @@
 options(warn=0)
-#setwd("C:/Users/wsaoillab/Desktop/Ola Data Analysis/R/Oil/Merichem") #Set working directory
+#setwd("C:/Users/wsaoillab/Desktop/Ola Data Analysis/R/Oil/Merichem") Set working directory
 
 #Function for converting NA values to 0 in sample sets 
 na.zero <- function (x)
@@ -167,4 +167,3 @@ hist3D (mx, my, mz, colvar = m, scale = T, colkey = F,
         border = "black", shade = 0,
         ticktype = "detailed", space = 0.6, d = 2, cex.axis = 0.8, axis = T, nticks = 13,
         names.arg = c("0","2", "4", "6", "8", "10","12", "14", "16", "18", "20", "22", "24"))
-
